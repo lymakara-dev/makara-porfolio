@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Porfolio() {
   return (
     <div>
@@ -9,7 +11,13 @@ export default function Porfolio() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-5">
           <div className="flex flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow">
             <a href="#">
-              <img className="rounded-t-lg" src="\pos_system.jpg  " alt="" />
+              <Image
+                className="rounded-t-lg"
+                src="/pos_system.jpg"
+                width={400}
+                height={300}
+                alt="POS System UI"
+              />
             </a>
             <div className="p-5 flex flex-col grow">
               <div className="grow-0">
@@ -52,10 +60,12 @@ export default function Porfolio() {
 
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
             <a href="#">
-              <img
+              <Image
                 className="rounded-t-lg"
                 src="/textboard-project.png"
-                alt=""
+                width={400}
+                height={300}
+                alt="Texboard Project UI"
               />
             </a>
             <div className="p-5">

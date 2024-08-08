@@ -9,7 +9,7 @@ export default function App() {
           Contact Me
         </h2>
         <div className="flex flex-col items-center">
-          <form action="#" className="space-y-8 w-1/2">
+          <form action="#" className="space-y-8 md:w-1/2 w-full">
             <div>
               <label
                 htmlFor="email"
