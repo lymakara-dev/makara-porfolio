@@ -6,7 +6,7 @@ export default function About() {
           About Me
         </h1>
         <div className=" flex justify-center">
-          <p className="text-black md:w-1/2 w-full content-center p-5 text-justify">
+          <p className="text-black md:w-3/4 w-full content-center p-5 text-justify">
             Motivated Computer Science student with a passion for software
             development and strong foundation of programming. Proficient in C++,
             Java, HTML, CSS, and JavaScript with hand-on experience in web

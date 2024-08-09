@@ -20,7 +20,7 @@ export default function App() {
               <Input
                 type="email"
                 placeholder="name@gmail.com"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg "
+                className="shadow-sm border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-transparent focus:outline-none nextui-input-override"
               />
             </div>
             <div>
@@ -33,7 +33,7 @@ export default function App() {
               <Input
                 type="text"
                 placeholder="Let us know how we can help you"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg "
+                className="shadow-sm border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-transparent focus:outline-none nextui-input-override"
               />
             </div>
             <div>
@@ -46,7 +46,7 @@ export default function App() {
               <Input
                 type="text"
                 placeholder="Leave a comment..."
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg"
+                className="shadow-sm border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-transparent focus:outline-none nextui-input-override"
               />
             </div>
             <button
